@@ -6,7 +6,7 @@ require "jekyll"
 
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "ixti/jekyll-assets"
+GITHUB_REPONAME = "ajhepburn/ajhepburn.github.io"
 
 
 namespace :site do
