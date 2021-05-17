@@ -1,7 +1,6 @@
 ---
 layout: about
 title: about
-permalink: /
 description: >
     Maching Learning PhD Researcher <br>
     <small><a href="http://ir.dcs.gla.ac.uk">Glasgow Information Retrieval Group, University of Glasgow</a></small>

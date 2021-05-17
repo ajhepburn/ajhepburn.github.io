@@ -28,6 +28,8 @@ namespace :site do
       Dir.chdir tmp
 
       system "git init"
+      system "git config --local user.name 'ajhepburn'"
+      system "git config --local user.email 'alex.j.hepburn@gmail.com'"
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
