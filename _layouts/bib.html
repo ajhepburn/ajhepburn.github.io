@@ -68,6 +68,9 @@
       </div>
 
       <div class="periodical">
+      {% if entry.venue %}
+        <i>{{entry.venue}}</i>
+      {% endif %}
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
@@ -82,6 +85,9 @@
     <div class="links">
     {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    {% endif %}
+    {% if entry.video %}
+      <a class="btn btn-sm z-depth-0" role="button">Video</a>
     {% endif %}
     {% if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>

@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: >
+    Maching Learning PhD Researcher <br>
+    <small><a href="http://ir.dcs.gla.ac.uk">Glasgow Information Retrieval Group, University of Glasgow</a></small>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # address: >
+  #   <small>Sir Alwyn Williams Bldg.</small><br>
+  #   <small>University of Glasgow</small><br>
+  #   <small>Glasgow, G12 8RZ</small><br>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a postgraduate researcher at the [University of Glasgow](https://www.gla.ac.uk/), studying information retrieval. My supervisors are [Dr. Richard McCreadie](https://www.gla.ac.uk/schools/computing/staff/richardmccreadie/) and [Dr. Jeff Dalton](https://www.gla.ac.uk/schools/computing/staff/jeffdalton/). My research involves developing multi-task learning algorithms for event-related information. Other interests include explainability/interpretability, social media analysis, crisis informatics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a member of the [Glasgow Information Retrieval Group](http://ir.dcs.gla.ac.uk) within the [Information, Data and Analytics (IDA)](https://www.gla.ac.uk/schools/computing/research/researchsections/ida-section/) section. I am currently involved in a project of identifying actionable information for disaster/emergency response scenarios and I am a regular participant in the [TREC Incident Streams](http://trecis.org/) track.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am also an organiser for [Machine Learning in Science](https://ml-in-science.github.io/webpage/) where we host regular talks and seminars on the development of machine learning and its use across different disciplines in science, and have held various teaching and marking assistant roles across the university.
